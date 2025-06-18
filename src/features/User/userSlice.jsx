@@ -19,7 +19,7 @@ const userSlice = createSlice({
       const User_id = `User_Admin_${user.id}`;
       console.log(user);
       state.user = user;
-      toast.success("login Successfully");
+      toast.success("Login Successfully");
       localStorage.setItem("UserAdminID", user.id);
       localStorage.setItem(User_id, JSON.stringify(state.user));
     },
