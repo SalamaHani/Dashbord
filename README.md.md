@@ -1,11 +1,13 @@
-
 # 📊 Admin Dashboard – E-Commerce App
 
 A responsive and modern **Admin Dashboard** for managing an E-Commerce platform. Built with **React.js (Vite)** and powered by **Laravel PHP** backend.
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## ⚙️ Features
 
 ### 🧑‍💻 Frontend (React Dashboard)
+
 - 🚀 Vite for lightning-fast development
 - 🧭 React Router 6.4+ with nested layouts
 - 🧩 Redux Toolkit (RTK) for global admin state
@@ -16,6 +18,7 @@ A responsive and modern **Admin Dashboard** for managing an E-Commerce platform.
 - 🔐 Admin login & protected routes
 
 ### 🔧 Backend (Laravel)
+
 - 🧬 RESTful API endpoints (admin/user routes)
 - 🗂️ Roles & permissions (admin vs customer)
 - 📦 Product/Order/User management
@@ -75,15 +78,15 @@ Allow CORS from frontend and setup auth guard in `config/sanctum.php` or use `jw
 
 ## 🧪 Tech Stack
 
-| Layer       | Technology               |
-|-------------|---------------------------|
-| Frontend    | React.js + Vite           |
-| Router      | React Router 6.4+         |
-| State       | Redux Toolkit + React Query |
-| Styling     | Tailwind CSS + Shadcn UI  |
-| Backend     | Laravel PHP               |
-| Auth        | Sanctum or JWT            |
-| DB          | MySQL / PostgreSQL        |
+| Layer    | Technology                  |
+| -------- | --------------------------- |
+| Frontend | React.js + Vite             |
+| Router   | React Router 6.4+           |
+| State    | Redux Toolkit + React Query |
+| Styling  | Tailwind CSS + Shadcn UI    |
+| Backend  | Laravel PHP                 |
+| Auth     | Sanctum or JWT              |
+| DB       | MySQL / PostgreSQL          |
 
 ---
 
@@ -100,14 +103,14 @@ Allow CORS from frontend and setup auth guard in `config/sanctum.php` or use `jw
 
 ## 🔐 API Endpoints (Admin)
 
-| Method | Endpoint               | Description               |
-|--------|------------------------|---------------------------|
-| GET    | `/api/admin/products`  | Fetch all products        |
-| POST   | `/api/admin/products`  | Create new product        |
-| PUT    | `/api/admin/products/:id` | Update product         |
-| DELETE | `/api/admin/products/:id` | Delete product         |
-| GET    | `/api/admin/orders`    | View customer orders      |
-| GET    | `/api/admin/stats`     | Analytics data            |
+| Method | Endpoint                  | Description          |
+| ------ | ------------------------- | -------------------- |
+| GET    | `/api/admin/products`     | Fetch all products   |
+| POST   | `/api/admin/products`     | Create new product   |
+| PUT    | `/api/admin/products/:id` | Update product       |
+| DELETE | `/api/admin/products/:id` | Delete product       |
+| GET    | `/api/admin/orders`       | View customer orders |
+| GET    | `/api/admin/stats`        | Analytics data       |
 
 ---
 
@@ -126,4 +129,3 @@ MIT License
 ## 🙋‍♂️ Feedback / Help
 
 Create an issue or discussion if you need help or want to contribute.
-
